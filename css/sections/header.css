@@ -1,0 +1,70 @@
+nav{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    height: 7vh;
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.title{
+    grid-column: 1/3;
+    z-index: 1;
+    align-self: center;
+    position: relative;
+}
+
+.logo-overlay{
+    grid-column: 1/6;
+    inset: 0;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    padding-left: 5vw;
+}
+
+.logo-overlay h4{
+    font-family: var(--playfair-display);
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 30px;
+}
+
+.header-menu li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px;
+}
+
+a,a:visited,a:focus{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: var(--playfair-display);
+    font-size: 1rem;
+}
+
+nav .nav-1,.nav-2,.nav-3,.nav-4,.nav-5{
+    justify-self: center;
+    align-self: center;
+}
+
+nav .header-menu{
+    grid-column: 9/13;
+    justify-self:end;
+    align-self: center;
+}
+
+@media only screen and (max-width: 1284px){
+    .header-menu{
+        display: none;
+    }
+    
+    nav .logo-overlay{
+        grid-column: 1/13;
+    }
+
+    .logo-overlay h4{
+        font-size: 20px;
+    }
+}
