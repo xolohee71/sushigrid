@@ -64,6 +64,7 @@
     position: relative;
     bottom: -66%;
     height: 10vh;
+    padding: 2vh 0;
     /* justify-self: center; */
 }
 

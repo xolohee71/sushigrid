@@ -1,0 +1,41 @@
+.about{
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.about__image{
+    grid-column:1/6;
+}
+
+.about__image-1{
+    grid-column: 1/13;
+    grid-row: 1/2;
+    padding: 15%;
+    background: url(../../assets/about_bg1.png);
+    background-position: right;
+    background-size: cover;
+    background-color: #fff;
+    height: 22rem;
+}
+
+.about__image-1 img{
+    width: 50%;
+}
+
+
+.about__image-2{
+    grid-column: 1/13;
+    grid-row: 2/3;
+    background: url(../../assets/about_bg2.png);
+    background-position: right;
+    background-size: cover;
+    background-color: #fff;
+    padding: 15%;
+    margin-top: 1%;
+    height: 22rem;
+}
+
+.about__image-2 img{
+    width: 50%;
+    padding-top: 14%;
+}
