@@ -112,6 +112,7 @@
     top:84%;
     height: 16vh;
     background-color: #fff;
+    z-index: -1;
 }
 
 .hero-content__testimonial .hero-content__customer {
