@@ -62,7 +62,7 @@
     grid-column: 7/12;
     grid-row: 1/2;
     position: relative;
-    bottom: -66%;
+    bottom: -69%;
     height: 10vh;
     padding: 2vh 0;
     /* justify-self: center; */
@@ -109,8 +109,8 @@
     grid-column: 6/13;
     grid-row: 1/2;
     position: relative;
-    top:78%;
-    height: 22vh;
+    top:84%;
+    height: 16vh;
     background-color: #fff;
 }
 
