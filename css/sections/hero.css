@@ -11,7 +11,7 @@
     background-color: var(--primary-color);
     grid-column: 1/6;
     grid-row: 1/2;
-    height: 100vh;
+    height: 42rem;
 }
 
 .hero .hero-image{
@@ -25,9 +25,9 @@
 }
 
 .hero-title h2{
-    font-size: 7rem;
+    font-size: 6rem;
     color: #fff;
-    top: 28%;
+    top: 34%;
     left: -1%;
     position: relative;
 
@@ -42,7 +42,9 @@
 .hero .hero-content-info{
     grid-column: 7/13;
     grid-row: 1/2;
-    align-self: center;
+    align-self:center;
+    top: -8rem;
+    position: relative;
 }
 
 .hero-content-info h1{
@@ -62,9 +64,9 @@
     grid-column: 7/12;
     grid-row: 1/2;
     position: relative;
-    bottom: -69%;
-    height: 10vh;
-    padding: 2vh 0;
+    bottom: -21rem;
+    height: 8rem;
+    padding: 2rem 0;
     /* justify-self: center; */
 }
 
@@ -109,8 +111,9 @@
     grid-column: 6/13;
     grid-row: 1/2;
     position: relative;
-    top:84%;
-    height: 16vh;
+    top:29rem;
+    height: 13rem;
+    padding: 1%;
     background-color: #fff;
     z-index: -1;
 }
@@ -161,7 +164,7 @@
     opacity: 0.8;
 }
 
-@media only screen and (max-width: 1284px){
+@media only screen and (max-width: 1418px){
     .hero .overlay-hero{
         grid-column: 1/13;
         height: 92%;
@@ -176,12 +179,13 @@
     .hero-title h2{
         top: 41%;
         left: 38%;
-        font-size: 13vw;
+        font-size: 11vw;
     }
     .hero .hero-content-info{
         padding-top: 5%;
         grid-column: 2/12;
         grid-row: 2/3;
+        position: unset;
     }
     .hero .hero-content-info h1{
         font-size: 3rem;
